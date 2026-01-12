@@ -1,7 +1,8 @@
 import React from "react";
 import "./Gallery.css";
+import image from "./images (5).jpg";
 
-// Image array (from public folder)
+
 
 function Gallery() {
   return (
@@ -11,7 +12,7 @@ function Gallery() {
       <div className="gallery-grid">
                 
           <div className="gallery-card" >
-            <img className="gallery-card"  src="/images (5).jpg" alt="praying"></img>
+            <img className="gallery-card"  src={image} alt="praying"></img>
             <img className="gallery-card"  src="/download (4).jpg" alt="praying"></img>
             <img className="gallery-card"  src="/images (6).jpg" alt="praying"></img>
             <img className="gallery-card"  src="/images (3).jpg" alt="praying"></img>
