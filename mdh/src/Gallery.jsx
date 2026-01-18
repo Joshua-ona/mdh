@@ -8,7 +8,6 @@ import img3 from "./assets/images-6.jpg";
 import img4 from "./assets/images-3.jpg";
 import img5 from "./assets/images-1.jpg";
 import img6 from "./assets/images-2.jpg";
-import img7 from "./assets/images-7.jpg";
 import exercise from "./assets/exercise.jpeg";
 import child from "./assets/child.jpeg";
 import prayer from "./assets/prayer.jpeg";
@@ -18,7 +17,7 @@ import download1 from "./assets/download-1.jpg";
 import naume from "./assets/Naume.jpg";
 
 const images = [
-  img1, img2, img3, img4, img5, img6, img7,
+  img1, img2, img3, img4, img5, img6, 
   exercise, child, prayer, destiny, download, download1, naume
 ];
 
