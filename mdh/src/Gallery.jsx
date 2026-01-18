@@ -13,7 +13,7 @@ function Gallery() {
                 
           <div className="gallery-card" >
             <img className="gallery-card"  src={image} alt="praying"></img>
-            <img className="gallery-card"  src="/download (4).jpg" alt="praying"></img>
+            <img className="gallery-card"  src="./download (4).JPG" alt="praying"></img>
             <img className="gallery-card"  src="/images (6).jpg" alt="praying"></img>
             <img className="gallery-card"  src="/images (3).jpg" alt="praying"></img>
             <img className="gallery-card"  src="/images (1).jpg" alt="praying"></img>
@@ -25,7 +25,8 @@ function Gallery() {
             <img  className="gallery-card"  src="/destiny.webp" alt="praying"></img>
             <img className="gallery-card"  src="/download.jpg" alt="praying"></img>
             <img className="gallery-card"  src="/download (1).jpg" alt="praying"></img>
-            <img className="gallery-card"  src="/Naume.jpg" alt="praying"></img>
+            <img className="gallery-card"  src="./Naume.jpg" alt="praying"></img>
+             <img src={process.env.PUBLIC_URL + '/images/Naume.jpg'} alt="hello" />
           
           </div>
       
